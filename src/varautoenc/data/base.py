@@ -33,7 +33,7 @@ class BaseDataModule(LightningDataModule):
                 drop_last=True,
                 shuffle=True,
                 num_workers=self.num_workers,
-                pin_memory=self.num_workers > 0,
+                pin_memory=self.num_workers > 0,  # use page-locked memory if data is fetched in a parallel subprocess
             )
         else:
             raise AttributeError("Train set has not been set")

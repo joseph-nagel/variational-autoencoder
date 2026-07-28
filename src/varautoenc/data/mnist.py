@@ -64,7 +64,7 @@ class MNISTDataModule(BaseDataModule):
         _ = datasets.MNIST(self.data_dir, train=False, download=True)
 
     def setup(self, stage: str) -> None:
-        """Set up train/test/val. datasets."""
+        """Set up train/val./test datasets."""
 
         # create train/val. datasets
         if stage in ("fit", "validate"):
