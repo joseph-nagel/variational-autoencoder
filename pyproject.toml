@@ -12,7 +12,7 @@ license = "MIT"
 authors = [
     {name = "Joseph Nagel", email = "JosephBNagel@gmail.com"}
 ]
-keywords = ["VAE", "generative model"]
+keywords = ["VAE", "generative modeling", "representation learning"]
 dependencies = [
     "numpy",
     "torch",
@@ -30,7 +30,7 @@ dependencies = [
 dev = ["mypy", "ruff"]
 
 [project.urls]
-source = "https://github.com/joseph-nagel/vae-intro"
+source = "https://github.com/joseph-nagel/variational-autoencoder"
 
 [tool.ruff]
 line-length = 120
