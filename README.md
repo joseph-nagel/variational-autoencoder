@@ -1,8 +1,6 @@
-# PyTorch VAE algorithms
+# Introduction to variational autoencoders
 
-This project provides an experimentation environment for variational autoencoders.
-All models are implemented in PyTorch and trained with Lightning.
-Examples of generative modeling and representation learning are provided for MNIST and CIFAR-10.
+This project provides an experimentation environment for variational autoencoders. All models are implemented in PyTorch and trained with Lightning. Examples of generative modeling and representation learning are provided for MNIST and CIFAR-10.
 
 <p>
   <img src="assets/latent_space.gif" alt="2D latent space of a dense VAE during training" title="Latent space during training" height="400" style="padding-right: 1em;">
